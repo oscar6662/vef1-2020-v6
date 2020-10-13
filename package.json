@@ -17,8 +17,9 @@
   },
   "homepage": "https://github.com/oscar6662/vef1-2020-v6#readme",
   "dependencies": {
+    "node-sass": "^4.14.1",
     "stylelint": "^13.7.2",
-	"stylelint-config-sass-guidelines": "^7.1.0",
+    "stylelint-config-sass-guidelines": "^7.1.0",
     "stylelint-config-standard": "^20.0.0"
   }
 }

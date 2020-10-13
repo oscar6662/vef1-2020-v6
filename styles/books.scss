@@ -1,2 +1,49 @@
-// Sækja config
-// Allir stílar fyrir bækur
+.flex-container-two {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  word-wrap: break-word;
+  overflow-x: hidden;
+  overflow: hidden;
+  width: 100%;
+
+  .book {
+    background-color: #eeeeee;
+    min-width: 160px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin: 0.2rem;
+    margin-bottom: 0.8rem;
+    border: 1px solid #cccccc;
+  }
+
+  img {
+    height: 200px;
+    width: 100%;
+    transition: 300ms ease-in-out;
+  }
+}
+
+.uc :not(.btm) {
+  text-transform: uppercase;
+}
+
+.book {
+  display: flex;
+  overflow: hidden;
+  object-fit: cover;
+
+  &:hover img {
+    transform: scale(1.5);
+  }
+
+  :not(img):not(.uc) {
+    padding: 0.5rem;
+  }
+}
+
+.btm {
+  display: flex;
+  justify-content: space-between;
+}

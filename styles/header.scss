@@ -1,2 +1,16 @@
-// Sækja config
-// Allir stílar fyrir haus
+.container {
+  background-image: url("./img/background.jpg");
+  height: 1000px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+  text-align: center;
+  color: #eeeeee;
+}
