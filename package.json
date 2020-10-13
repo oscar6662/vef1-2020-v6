@@ -1,0 +1,24 @@
+{
+  "name": "verkefni6",
+  "version": "1.0.0",
+  "description": "na",
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint styles.scss ./**/*.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscar6662/vef1-2020-v6.git"
+  },
+  "author": "Óskar Helgi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscar6662/vef1-2020-v6/issues"
+  },
+  "homepage": "https://github.com/oscar6662/vef1-2020-v6#readme",
+  "dependencies": {
+    "stylelint": "^13.7.2",
+	"stylelint-config-sass-guidelines": "^7.1.0",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}
