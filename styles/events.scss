@@ -25,12 +25,11 @@ main {
     justify-content: space-between;
   }
 
-  > div > {
-    a {
+  > div > a {
       margin-top: 1rem;
     }
 
-    p {
+   > div > p {
       font-style: italic;
     }
   }
