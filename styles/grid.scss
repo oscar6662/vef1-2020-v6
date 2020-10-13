@@ -1,9 +1,4 @@
-.grid {
-  max-width: 1400px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
+@import './config';
 .row {
   display: flex;
   flex-wrap: wrap;
